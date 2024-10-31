@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Group xmlns="http://hl7.org/fhir">
+  <id value="AABMeasureGroup"/>
+  <meta>
+    <profile value="http://example.org/StructureDefinition/digicert-group-profile"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Group AABMeasureGroup</b></p><a name="AABMeasureGroup"> </a><a name="hcAABMeasureGroup"> </a><a name="AABMeasureGroup-en-US"> </a><p><b>type</b>: Person</p><p><b>actual</b>: true</p><p><b>name</b>: AAB Measure Group</p><h3>Members</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Entity</b></td></tr><tr><td style="display: none">*</td><td><a href="Patient1">Patient1</a></td></tr></table></div>
+  </text>
+  <type value="person"/>
+  <actual value="true"/>
+  <name value="AAB Measure Group"/>
+  <member>
+    <entity>
+      <reference value="Patient1"/>
+    </entity>
+  </member>
+</Group>

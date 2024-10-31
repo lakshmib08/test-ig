@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "ExampleIG",
   "status" : "draft",
-  "date" : "2024-10-30T14:42:12-04:00",
+  "date" : "2024-10-31T11:09:52-04:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",
@@ -597,6 +597,29 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Group"
+      }],
+      "reference" : {
+        "reference" : "Group/AABMeasureGroup"
+      },
+      "name" : "AABMeasureGroup",
+      "exampleCanonical" : "http://example.org/StructureDefinition/digicert-group-profile"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/digicert-group-profile"
+      },
+      "name" : "Digital Cert FHIR Bulk Group Profile",
+      "description" : "This is a group profile used in FHIR export Operation to obtain a detailed set of FHIR resources of diverse resource types pertaining to all members of the Group",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"

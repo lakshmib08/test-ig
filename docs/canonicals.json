@@ -12,5 +12,12 @@
     "url" : "http://example.org/StructureDefinition/MyPatient",
     "version" : "0.1.0",
     "name" : "MyPatient"
+  },
+  {
+    "id" : "digicert-group-profile",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/digicert-group-profile",
+    "version" : "0.1.0",
+    "name" : "DigiCertGroup"
   }
 ]

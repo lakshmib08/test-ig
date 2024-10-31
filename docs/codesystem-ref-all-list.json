@@ -13,6 +13,18 @@
       "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
     },
     {
+      "url" : "http://hl7.org/fhir/group-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GroupType",
+      "title" : "GroupType",
+      "description" : "Types of resources that are part of group.",
+      "oids" : ["2.16.840.1.113883.4.642.4.285"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-group-type.html" : "GroupType"
+    },
+    {
       "url" : "http://hl7.org/fhir/link-type",
       "version" : "4.0.1",
       "status" : "active",

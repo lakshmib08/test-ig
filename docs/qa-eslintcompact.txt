@@ -1,6 +1,22 @@
 ExampleIG
 =========================================
 
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Group/AABMeasureGroup.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'Patient1' for "Patient1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
@@ -22,6 +38,8 @@ Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\fsh-generated\resources\Group-AABMeasureGroup.json: line 11, col 8, Error - Unable to resolve resource with reference 'Patient1' (STRUCTURE)
+C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\fsh-generated\resources\Group-AABMeasureGroup.json: line 0, col 0, Error - Hyperlink 'Patient1' at 'div/table/tr/td/a' for 'Patient1' does not resolve (INVALID)
 
-err = 0, warn = 4, info = 0
+err = 2, warn = 5, info = 0
 IG Publisher Version: 1.7.1

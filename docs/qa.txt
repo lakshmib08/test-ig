@@ -1,15 +1,24 @@
 ExampleIG : Validation Results
 =========================================
 
-err = 0, warn = 4, info = 0
+err = 2, warn = 5, info = 0
 IG Publisher Version: 1.7.1
-Generated Wed Oct 30 14:42:40 EDT 2024. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
- Build Errors : 17 / 4 / 0
+Generated Thu Oct 31 11:10:31 EDT 2024. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
+ Build Errors : 32 / 5 / 0
+ C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\fsh-generated\resources\Group-AABMeasureGroup : 2 / 0 / 1
  C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\fsh-generated\resources\ImplementationGuide-fhir.example : 0 / 0 / 1
  C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\fsh-generated\resources\Patient-PatientExample : 0 / 0 / 1
  C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 1
+ C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\fsh-generated\resources\StructureDefinition-digicert-group-profile : 0 / 0 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Group/AABMeasureGroup.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\Group-AABMeasureGroup.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\Group-AABMeasureGroup.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 168, column 453: The link 'Patient1' for "Patient1" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\Group-AABMeasureGroup.html#/html/body/div/div/div/p/a at Line 193, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\Group-AABMeasureGroup.json.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\Group-AABMeasureGroup.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\Group-AABMeasureGroup.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 193, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 213, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
@@ -24,13 +33,26 @@ ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefi
 ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/a at Line 2454, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 1833, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2301, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\artifacts.html#/html/body/div/div/div/p/a at Line 192, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-digicert-group-profile-definitions.html#/html/body/div/div/div/p/a at Line 454, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-digicert-group-profile-examples.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-digicert-group-profile-mappings.html#/html/body/div/div/div/p/a at Line 275, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-digicert-group-profile-testing.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-digicert-group-profile.html#/html/body/div/div/div/p/a at Line 1379, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-digicert-group-profile.profile.history.html#/html/body/div/div/div/p/a at Line 230, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-digicert-group-profile.profile.json.html#/html/body/div/div/div/p/a at Line 1698, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-digicert-group-profile.profile.ttl.html#/html/body/div/div/div/p/a at Line 1327, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\StructureDefinition-digicert-group-profile.profile.xml.html#/html/body/div/div/div/p/a at Line 1591, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\artifacts.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\index.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: C:\Users\lbhamidipati\Documents\sushi-demo\ExampleIG\output\toc.html#/html/body/div/div/div/p/a at Line 140, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\Group-AABMeasureGroup.json ==
+ERROR: Group/AABMeasureGroup: Group.member[0].entity: Unable to resolve resource with reference 'Patient1'
+ERROR: Group.text.div: Hyperlink 'Patient1' at 'div/table/tr/td/a' for 'Patient1' does not resolve
 == fsh-generated\resources\ImplementationGuide-fhir.example.json ==
 == fsh-generated\resources\Patient-PatientExample.json ==
 == fsh-generated\resources\StructureDefinition-MyPatient.json ==
+== fsh-generated\resources\StructureDefinition-digicert-group-profile.json ==

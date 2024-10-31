@@ -9,6 +9,12 @@
         "url": "http://example.org/StructureDefinition/MyPatient",
         "title": "MyPatient"
       }
+    ],
+    "Group": [
+      {
+        "url": "http://example.org/StructureDefinition/digicert-group-profile",
+        "title": "Digital Cert FHIR Bulk Group Profile"
+      }
     ]
   },
   "usage": {
